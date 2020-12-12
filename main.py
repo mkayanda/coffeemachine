@@ -33,12 +33,32 @@ resources = {
 
 
 def is_resource_sufficient(order_ingredients):
+    """returns true when order can be made, False when ingredients are insufficient"""
     for item in order_ingredients:
         if order_ingredients[item] >= resources[item]:
             print("Sorry there is not enough {item}.")
             return False
     return True
 
+
+def process_coins():
+    """returns the total calculated from coins inserted"""
+    print("Please insert coins.")
+    total = int(input("how many quarters?: ")) * 0.25
+    total += int(input("how many dimes?: ")) * 0.1
+    total += int(input("how many nickles?: ")) * 0.05
+    total += int(input("how many pennies?: ")) * 0.01
+    return total
+
+def is_transaction_successful(money_received, drink_cost)
+    """Return True when the payment is accepted, false when insufficient"""
+    if money_received >= drink_cost:
+        global profit
+        profit += drink_cost
+        return True
+    else:
+        print("Sorry that's not enough money. Money refunded")
+        return False
 
 is_on = True
 
@@ -55,4 +75,4 @@ while is_on:
     else:
         drink = MENU[choice]
         if is_resource_sufficient(drink["ingredient"]):
-
+            payment = process_coins()
