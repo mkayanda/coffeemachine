@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a13769-3793-4df6-8c93-a32a36be397d" name="Default Changelist" comment="upload all necessary functions" />
+    <list default="true" id="c4a13769-3793-4df6-8c93-a32a36be397d" name="Default Changelist" comment="fixed the syntax error">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,14 +84,22 @@
       <option name="project" value="LOCAL" />
       <updated>1607734713083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed the syntax error">
+      <created>1607734753427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607734753427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check if resource is sufficient" />
     <MESSAGE value="check if transaction is successful" />
     <MESSAGE value="upload all necessary functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload all necessary functions" />
+    <MESSAGE value="fixed the syntax error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the syntax error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

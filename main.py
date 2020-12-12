@@ -76,6 +76,6 @@ while is_on:
 
     else:
         drink = MENU[choice]
-        if is_resource_sufficient(drink["ingredient"]):
+        if is_resource_sufficient(drink["ingredients"]):
             payment = process_coins()
             is_transaction_successful(payment, drink['cost'])
